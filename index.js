@@ -13,6 +13,6 @@ window.onload = function() {
     let indexWhat = random(0,what.length-1);
     let indexWhen = random(0,when.length-1);
 
-    let escusa = who[indexWho]+" "+action[indexAction]+" "+what[indexWhat]+" "+when[indexWhen];
-    document.querySelector("#excuse").innerHTML = escusa;
+    let excuseSentence = who[indexWho]+" "+action[indexAction]+" "+what[indexWhat]+" "+when[indexWhen];
+    document.querySelector("#excuse").innerHTML = excuseSentence;
 }
