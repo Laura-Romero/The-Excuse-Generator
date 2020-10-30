@@ -1,0 +1,11 @@
+
+h2{
+    font-size: 7rem;
+    color:green;
+}
+
+p{
+    font: 3rem bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
